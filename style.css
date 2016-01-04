@@ -25,14 +25,11 @@ header h1{
 }
 .menu{
   text-decoration: none;
+  list-style-type: none;
 }
 .menu li{
   float: left;
   margin: 30px;
-}
-
-.menu{
-  list-style-type: none;
 }
 header ul{
   margin: 0px;
@@ -43,6 +40,8 @@ header ul{
 }
 .gauche{
   width: 25%;
+  display: inline-block;
+  float: left;
 }
 .gauche h2{
   font-weight: lighter;
@@ -66,8 +65,6 @@ header ul{
 .gauche .bleue{
   color: white;
   background-color: #337ab7;
-}
-.gauche .bleue{
   background: #337ab7;
   border-radius: 5px 5px 0px 0px;
   border-top: 1px solid #e6e6e6;
@@ -83,16 +80,45 @@ h3{
   font-size: 22px;
 }
 article{
-  width: 800px;
+  width: 802px;
   margin-bottom: 20px;
   border: 1px solid #e6e6e6;
   border-radius: 5px;
   float: right;
+  margin-top: 20px;
 }
 .droite{
   width: 75%;
   float: right;
 }
+.texte a{
+  color: #337ab7;
+}
 .prix{
   float: right;
 }
+.boutton{
+  float: right;
+  border-radius: 5px;
+  background-color: #5CB85C;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #5BB75B;
+  padding: 10px;
+  margin: 10px 10px 20px 0;
+}
+.commentaire{
+  border-radius: 5px;
+  border-top: 0;
+  border: 1px #DDDDDD solid;
+  margin-top: 20px;
+  background-color: #F5F5F5;
+}
+.divcommentaire{
+  margin: 30px 15px;
+  border-top: 1px solid #ddd;
+}
+/*footer{
+  border-top: 1px solid #DDD;
+}*/
