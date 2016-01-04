@@ -34,17 +34,16 @@ header h1{
 header ul{
   margin: 0px;
 }
-.largeur{
+/*.largeur{
   width: 1170px;
   margin: 0px;
-}
+}*/
 .gauche{
   width: 25%;
   display: inline-block;
   float: left;
 }
 .gauche h2{
-  font-weight: lighter;
   color: #333333;
 }
 .gauche ul{
@@ -63,9 +62,7 @@ header ul{
   color: #74656a;
 }
 .gauche .bleue{
-  color: white;
   background-color: #337ab7;
-  background: #337ab7;
   border-radius: 5px 5px 0px 0px;
   border-top: 1px solid #e6e6e6;
 }
@@ -76,7 +73,6 @@ h3{
   margin: 10px 0;
   color: #337ab7;
   font-weight: lighter;
-  display: inline-block;
   font-size: 22px;
 }
 article{
@@ -90,6 +86,7 @@ article{
 .droite{
   width: 75%;
   float: right;
+  /*clear: both;*/
 }
 .texte a{
   color: #337ab7;
@@ -119,6 +116,11 @@ article{
   margin: 30px 15px;
   border-top: 1px solid #ddd;
 }
-/*footer{
+footer{
   border-top: 1px solid #DDD;
-}*/
+  clear: both;
+  text-align: center;
+}
+.etoile{
+  color: #CF513D;
+}
