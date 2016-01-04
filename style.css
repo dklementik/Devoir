@@ -111,10 +111,12 @@ article{
   border: 1px #DDDDDD solid;
   margin-top: 20px;
   background-color: #F5F5F5;
+  padding: 15px;
 }
 .divcommentaire{
   margin: 30px 15px;
   border-top: 1px solid #ddd;
+  clear: both;
 }
 footer{
   border-top: 1px solid #DDD;
